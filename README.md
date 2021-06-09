@@ -86,8 +86,6 @@ You are all set ✅!
 
 > :sound: Perform the deployment stage every time if you are making changes in the codebase.
 
-### Checkout the Portfolio using this :link: [link](https://github.com/jyoti-2/portfolio-jyoti)
-
 ## Credits
 
 I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4ujA&list=PLGyA74h_S9Nq-rRLG5pqEiaJ87H22S3BW) to build the project.
@@ -95,3 +93,5 @@ I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4u
 ## License
 
 :link: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+### Checkout the Portfolio using this :link: [link](https://github.com/jyoti-2/portfolio-jyoti)
