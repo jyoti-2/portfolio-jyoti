@@ -28,4 +28,6 @@
 
 > Perform the deployment stage every time if you are making changes in the codebase.
 
-[Check the Portfolio using] (https://github.com/jyoti-2/portfolio-jyoti)
+## Check the Portfolio using:
+
+https://github.com/jyoti-2/portfolio-jyoti
