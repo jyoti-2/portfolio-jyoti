@@ -70,21 +70,16 @@ You are all set ✅!
 2. Pushed the code to Github.
 3. Add the following in your package.json
 
-   - ```json
-     "homepage" : "......."
-     ```
-
-   ````
-   * ```json
-   "predeploy" : "npm run build"
-   ````
-
-   - ```json
-     "deploy" : gh-pages -d build"
-     ```
-
+   ```json
+     "homepage" : "{Github repo link}"
    ```
 
+   ```json
+   "predeploy" : "npm run build"
+   ```
+
+   ```json
+     "deploy" : "gh-pages -d build"
    ```
 
 4. `npm run build`
@@ -95,7 +90,7 @@ Check the Portfolio using this :link: [link](https://github.com/jyoti-2/portfoli
 
 ### Credits
 
-I have followed this [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4ujA&list=PLGyA74h_S9Nq-rRLG5pqEiaJ87H22S3BW) to build the project.
+I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4ujA&list=PLGyA74h_S9Nq-rRLG5pqEiaJ87H22S3BW) to build the project.
 
 ### License
 
