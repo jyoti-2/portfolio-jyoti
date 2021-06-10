@@ -3,6 +3,7 @@
 ### Table of Contents
 
 - [Tech Stack](#tech-stack)
+- [Libraries used](#libraries-used)
 - [Screenshot](#screenshot)
 - [Installation and Setup Instructions](#installation-and-setup-instructions)
 - [Source Structure](#source-structure)
@@ -14,6 +15,11 @@
 
 - [Javascript](https://www.javascript.com/)
 - [Reactjs](https://reactjs.org/)
+
+## Libraries used
+
+- react-burger-menu `npm i react-burger-menu`
+-
 
 ## :camera: Screenshot
 
