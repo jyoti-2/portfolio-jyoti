@@ -7,6 +7,7 @@ import Skills from "./../Skills/Skills";
 import Contact from "./../Contact/Contact";
 import './App.css';
 import NavBar from './../NavBar/NavBar';
+import GoHome from '../GoHome/GoHome';
 
 class App extends React.Component {
     
@@ -20,7 +21,8 @@ class App extends React.Component {
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
                         <Route path="/skills" component={Skills} />
-                        <Route path="/contact" component = {Contact}/>
+                        <Route path="/contact" component={Contact} />
+                        <GoHome/>
                     </div>
                 </BrowserRouter>
                 
