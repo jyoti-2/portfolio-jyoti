@@ -19,7 +19,7 @@
 ## Libraries used
 
 - react-burger-menu `npm i react-burger-menu`
--
+- Formspree for getting the email from the contact pages.
 
 ## :camera: Screenshot
 

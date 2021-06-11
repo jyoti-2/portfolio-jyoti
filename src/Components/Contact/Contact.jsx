@@ -19,11 +19,13 @@ const Contact = () => {
 
 
             <div className="contact-form-container">
-                <form className='contact-form'>
+                <form className='contact-form'
+                 action="https://formspree.io/f/xrgrkejn"
+                 method="POST">
                     <input
                         type='email'
                         placeholder='Your Email-id'
-                        name='Email'
+                        name='_replyto'
                         className='input-box email-input'
                         autoComplete='on'
                     />
