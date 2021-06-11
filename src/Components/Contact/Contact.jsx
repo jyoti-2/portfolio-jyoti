@@ -17,6 +17,28 @@ const Contact = () => {
                 detail='Interested to collaborate on amazing project? Feel free to drop me an email.'
             />
 
+
+            <div className="contact-form-container">
+                <form className='contact-form'>
+                    <input
+                        type='email'
+                        placeholder='Your Email-id'
+                        name='Email'
+                        className='input-box email-input'
+                        autoComplete='on'
+                    />
+                    <textarea
+                        type='text'
+                        placeholder='Your Message'
+                        name='message'
+                        className='input-box body-input'
+                    ></textarea>
+                    <button type='submit' className='contact-btn'>
+                        Send Email
+                    </button>
+
+                </form>
+            </div>
             <div className="social-icons-container">
                 <a href='https://www.linkedin.com/in/jyoti-kumari2/'
                  className = 'social-icon'>
