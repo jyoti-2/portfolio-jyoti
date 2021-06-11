@@ -77,7 +77,7 @@ You are all set ✅!
 3. Add the following in your package.json
 
    ```json
-     "homepage" : "{Github repo link}"
+     "homepage" : "http://jyoti-2.github.io/portfolio-jyoti"
    ```
 
    ```json
