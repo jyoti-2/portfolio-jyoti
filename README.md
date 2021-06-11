@@ -100,4 +100,4 @@ I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4u
 
 :link: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Check it Live here :link: [link](https://github.com/jyoti-2/portfolio-jyoti)
+### Check it Live here :link: [link](http://jyoti-2.github.io/portfolio-jyoti)
