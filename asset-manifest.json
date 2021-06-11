@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.313f3f13.chunk.css",
-    "main.js": "/static/js/main.0d621eaf.chunk.js",
-    "main.js.map": "/static/js/main.0d621eaf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6d079a75.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6d079a75.js.map",
-    "static/js/2.f39f3eec.chunk.js": "/static/js/2.f39f3eec.chunk.js",
-    "static/js/2.f39f3eec.chunk.js.map": "/static/js/2.f39f3eec.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.313f3f13.chunk.css.map": "/static/css/main.313f3f13.chunk.css.map",
-    "static/js/2.f39f3eec.chunk.js.LICENSE.txt": "/static/js/2.f39f3eec.chunk.js.LICENSE.txt",
-    "static/media/aboutme.0b25cd9c.png": "/static/media/aboutme.0b25cd9c.png",
-    "static/media/skills_vector.1fb5f4a4.png": "/static/media/skills_vector.1fb5f4a4.png",
-    "static/media/typing.26105fde.png": "/static/media/typing.26105fde.png"
+    "main.css": "/portfolio-jyoti/static/css/main.313f3f13.chunk.css",
+    "main.js": "/portfolio-jyoti/static/js/main.89c39c84.chunk.js",
+    "main.js.map": "/portfolio-jyoti/static/js/main.89c39c84.chunk.js.map",
+    "runtime-main.js": "/portfolio-jyoti/static/js/runtime-main.eecac863.js",
+    "runtime-main.js.map": "/portfolio-jyoti/static/js/runtime-main.eecac863.js.map",
+    "static/js/2.f39f3eec.chunk.js": "/portfolio-jyoti/static/js/2.f39f3eec.chunk.js",
+    "static/js/2.f39f3eec.chunk.js.map": "/portfolio-jyoti/static/js/2.f39f3eec.chunk.js.map",
+    "index.html": "/portfolio-jyoti/index.html",
+    "static/css/main.313f3f13.chunk.css.map": "/portfolio-jyoti/static/css/main.313f3f13.chunk.css.map",
+    "static/js/2.f39f3eec.chunk.js.LICENSE.txt": "/portfolio-jyoti/static/js/2.f39f3eec.chunk.js.LICENSE.txt",
+    "static/media/aboutme.0b25cd9c.png": "/portfolio-jyoti/static/media/aboutme.0b25cd9c.png",
+    "static/media/skills_vector.1fb5f4a4.png": "/portfolio-jyoti/static/media/skills_vector.1fb5f4a4.png",
+    "static/media/typing.26105fde.png": "/portfolio-jyoti/static/media/typing.26105fde.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d079a75.js",
+    "static/js/runtime-main.eecac863.js",
     "static/js/2.f39f3eec.chunk.js",
     "static/css/main.313f3f13.chunk.css",
-    "static/js/main.0d621eaf.chunk.js"
+    "static/js/main.89c39c84.chunk.js"
   ]
 }
