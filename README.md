@@ -25,15 +25,15 @@
 
 ## :camera: Screenshot
 
-https://user-images.githubusercontent.com/63103873/121711695-83fc9200-caf8-11eb-81a3-11e25075c141.png
+![alt text](https://user-images.githubusercontent.com/63103873/121711695-83fc9200-caf8-11eb-81a3-11e25075c141.png)
 
-https://user-images.githubusercontent.com/63103873/121773074-22d7cb80-cb97-11eb-9157-528e786c231f.png
+![alt text](https://user-images.githubusercontent.com/63103873/121773074-22d7cb80-cb97-11eb-9157-528e786c231f.png)
 
-https://user-images.githubusercontent.com/63103873/121773077-279c7f80-cb97-11eb-9f25-bb3e0b0f27ad.png
+![alt text](https://user-images.githubusercontent.com/63103873/121773077-279c7f80-cb97-11eb-9f25-bb3e0b0f27ad.png)
 
-https://user-images.githubusercontent.com/63103873/121773134-7ba76400-cb97-11eb-891f-729de009725c.png
+![alt text](https://user-images.githubusercontent.com/63103873/121773134-7ba76400-cb97-11eb-891f-729de009725c.png)
 
-https://user-images.githubusercontent.com/63103873/121773076-253a2580-cb97-11eb-8595-8f097e2dea31.png
+![alt text](https://user-images.githubusercontent.com/63103873/121773076-253a2580-cb97-11eb-8595-8f097e2dea31.png)
 
 ## 🔨 Installation and Setup Instructions
 
