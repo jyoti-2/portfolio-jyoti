@@ -93,10 +93,12 @@ You are all set ✅!
    ```
 
    ```json
+   // Add in the script 
    "predeploy" : "npm run build"
    ```
 
    ```json
+    // Add in the script 
      "deploy" : "gh-pages -d build"
    ```
 
@@ -113,3 +115,5 @@ I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4u
 :link: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Check it Live here :link: [link](http://jyoti-2.github.io/portfolio-jyoti)
+
+**[⬆ back to top](#table-of-contents)**
