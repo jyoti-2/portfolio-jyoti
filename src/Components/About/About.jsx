@@ -7,7 +7,7 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div className="section-container">
+        <div id = "about" className="section-container">
             <Header
                 heading='About me'
                 detail ='Engineer | Programmer | Techie'

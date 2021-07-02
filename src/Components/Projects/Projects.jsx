@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard.jsx"
 
 const Projects = () => {
     return (
-        <div className='section-container'>
+        <div id= " projects" className='section-container'>
             <Header
                 heading='My Projects.'
                 detail='Here are a few cool things I have worked on, do check them out!'

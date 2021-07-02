@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
 import HomeImage from './../../assets/typing.png';
+import About from "./../About/About";
+import Projects from "./../Projects/Projects";
+import Skills from "./../Skills/Skills";
+import Contact from "./../Contact/Contact";
 
 class Home extends Component{
     render() {
         return (
-            <div className="home-container">
+            <div id = "home" className="home-container">
                 <div className="header-text">
                     <h1> Hey I'm Jyoti Kumari!</h1>
                     <p> Instrumentation and Control Engineer | Web Developer | Avid Learner </p>
@@ -22,7 +26,10 @@ class Home extends Component{
                 <div className="home-image">
                     <img src={HomeImage} alt='' className='splash-image'/>
                 </div>
-
+                <About />
+                <Projects />
+                <Skills />
+                <Contact/>
             </div>
         )
     }

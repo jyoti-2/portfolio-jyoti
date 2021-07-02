@@ -9,7 +9,7 @@ import skillsVector from './../../assets/skills_vector.png';
 
 const Skills = () => {
     return (
-        <div className="section-container">
+        <div id = "skill" className="section-container">
             <Header
                 heading ='My Skills'
                 detail='Passionate about new technologies, I keep exploring stuff. Here is the tech stack I have worked with!' />

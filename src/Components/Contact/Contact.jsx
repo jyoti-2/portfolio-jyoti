@@ -11,7 +11,7 @@ import medium from './../../assets/me.png';
 
 const Contact = () => {
     return (
-        <div className="section-container">
+        <div id=  "contact" className="section-container">
             <Header
                 heading='Get in touch.'
                 detail='Interested to collaborate on amazing project? Feel free to drop me an email.'
