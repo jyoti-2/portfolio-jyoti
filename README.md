@@ -106,6 +106,8 @@ You are all set ✅!
 
 > :sound: Perform the deployment stage every time if you are making changes in the codebase.
 
+5. `npm run deploy`
+
 ## Credits
 
 I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4ujA&list=PLGyA74h_S9Nq-rRLG5pqEiaJ87H22S3BW) to build the project.
