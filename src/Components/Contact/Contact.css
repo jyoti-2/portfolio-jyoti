@@ -1,5 +1,5 @@
 .contact-form-container {
-  width: 100%;
+  width: 50%;
   align-self: center;
   margin: 10px 0px 50px 0px;
 }
@@ -42,7 +42,7 @@
   width: 100%;
   text-align: center;
   padding: 17px 35px;
-  background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+  background: #6C63FF;
   border-radius: 35px;
 }
 
@@ -55,13 +55,14 @@
 }
 
 .social-icon {
+  background-color: #9d99f5;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin: 21px;
+  border-radius: 10px;
 }
 
 .social-icon:hover,
 .contact-btn:hover {
-  filter: drop-shadow(0px 8px 8px rgba(37, 19, 19, 0.32));
   cursor: pointer;
   transition: all 0.3s;
 }

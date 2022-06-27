@@ -82,21 +82,19 @@ class NavBar extends React.Component {
                 > Contact
                 </Link> */}
                 <h3 className='nav-header'>JYOTI</h3>
-                <Nav className='navlink' activeKey="/home">
+                <Nav className='navlink' activeKey="/">
+            
                     <Nav.Item>
-                        <Nav.Link href="/home"><div className="navlink">Home</div></Nav.Link>
+                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500}  href="/#/about"><div className="navlink">About Me!</div></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/about"><div className="navlink">About Me!</div></Nav.Link>
+                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500}  href="/#/projects"><div className="navlink">Projects</div></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/projects"><div className="navlink">Projects</div></Nav.Link>
+                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href="/#/skill"><div className="navlink">Skills</div></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/skill"><div className="navlink">Skills</div></Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/contact"><div className="navlink">Contact</div></Nav.Link>
+                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500}  href="/#/contact"><div className="navlink">Contact</div></Nav.Link>
                     </Nav.Item>
                 </Nav>
 
