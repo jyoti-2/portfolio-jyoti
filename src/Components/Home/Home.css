@@ -1,14 +1,14 @@
 .home-container {
-  background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+  background: #1A1A1D;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow-y: auto;
   align-items: center;
-  padding: 100px 10%;
-  min-height: 100vh;
+  padding: 20px;
   box-sizing: border-box;
   overflow-x: hidden;
+  color:#fff;
 }
 
 .header-text {
@@ -35,7 +35,7 @@
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #e5e5e5;
+  color: #fff;
   margin: 10px;
 }
 .head-btn {
@@ -62,7 +62,7 @@
 
 .btn-white {
   background: #fff;
-  color: black;
+  color: #fff;
 }
 
 .btn-transparent {
