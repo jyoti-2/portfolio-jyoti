@@ -69,7 +69,7 @@ const Contact = () => {
             </div>
 
 
-        <FooterLink phrase=' Read more ' link='about me!' toadress='/about'/>
+        {/* <FooterLink phrase=' Read more ' link='about me!' toadress='/about'/> */}
         </div>
     );
 };

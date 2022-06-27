@@ -1,9 +1,8 @@
 import React from 'react';
 import "./NavBar.css";
-import { Link} from "react-scroll";
 //import { slide as Menu } from 'react-burger-menu';
-import {withRouter } from 'react-router-dom';
-
+// import { withRouter } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 class NavBar extends React.Component {
     render() {
@@ -13,12 +12,12 @@ class NavBar extends React.Component {
         // const projectsClass = location.pathname === '/projects' ? 'active-item' : '';
         // const skillsClass = location.pathname === '/skills' ? 'active-item' : '';
         // const contactClass = location.pathname === '/contact' ? 'active-item' : '';
-  
+
         return (
             // <Menu>
             //     {/* We won't use anchor tag becaue it refreshes the web application
             //      <a id="home" className="menu-item" href="/">Home</a>*/}
-                
+
             //     <Link to="/" className={`menu-item ${homeClass}`}>
             //         Home
             //     </Link>
@@ -35,58 +34,76 @@ class NavBar extends React.Component {
             //         Contact
             //     </Link>
             //     </Menu>
-                 <div className="nav-container"> 
-           
-            <Link
-                        activeClass="active"
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-            >       Home
+            <div className="nav-container">
+
+                {/* <Link
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >       Home
                 </Link>
-                            <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+                <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
                 >   About
-                    </Link>
-            <Link
-                activeClass="active"
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                    > Projects
-                        </Link>
-            <Link
-                activeClass="active"
-                to="skill"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                        > Skills
-                            </Link>
-            <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-            > Contact
-                                </Link>
-           
-                                </div>    
-                                
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                > Projects
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="skill"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                > Skills
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                > Contact
+                </Link> */}
+                <h3 className='nav-header'>JYOTI</h3>
+                <Nav className='navlink' activeKey="/home">
+                    <Nav.Item>
+                        <Nav.Link href="/home"><div className="navlink">Home</div></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/about"><div className="navlink">About Me!</div></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/projects"><div className="navlink">Projects</div></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/skill"><div className="navlink">Skills</div></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/contact"><div className="navlink">Contact</div></Nav.Link>
+                    </Nav.Item>
+                </Nav>
+
+            </div>
+
         );
     }
 }
 
-export default withRouter(NavBar);
+export default NavBar;

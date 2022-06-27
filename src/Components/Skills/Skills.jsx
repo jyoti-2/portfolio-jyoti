@@ -20,7 +20,7 @@ const Skills = () => {
                 ))}
             </div>
 
-            <FooterLink phrase=' Get in ' link='touch !' toadress='/contact'/>
+            {/* <FooterLink phrase=' Get in ' link='touch !' toadress='/contact'/> */}
             
             <div className='skills-vector-frame'>
                 <img

@@ -1,10 +1,10 @@
 body {
-  min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
   width: 100;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 input:focus,
@@ -17,7 +17,7 @@ select:focus {
   box-sizing: border-box;
   min-height: 100vh;
   position: relative;
-  padding: 50px 0;
+  padding: 50px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
