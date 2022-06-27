@@ -1,3 +1,8 @@
+.body{
+  background: #1A1A1D;
+}
+
+
 .about-section{
   display: flex;
   flex-direction: row;

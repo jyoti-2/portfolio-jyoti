@@ -4,7 +4,7 @@ import "./FooterLink.css";
 
 const FooterLink = ({ phrase, link, toadress }) => {
     return (
-        <div className="footer-link">
+        <div className="footer-link-componenet">
             {phrase}
             <Link to={toadress} target="_blank" className='footer-link-element'>
                 {link}
