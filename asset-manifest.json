@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-jyoti/static/css/main.313f3f13.chunk.css",
-    "main.js": "/portfolio-jyoti/static/js/main.89c39c84.chunk.js",
-    "main.js.map": "/portfolio-jyoti/static/js/main.89c39c84.chunk.js.map",
-    "runtime-main.js": "/portfolio-jyoti/static/js/runtime-main.eecac863.js",
-    "runtime-main.js.map": "/portfolio-jyoti/static/js/runtime-main.eecac863.js.map",
-    "static/js/2.f39f3eec.chunk.js": "/portfolio-jyoti/static/js/2.f39f3eec.chunk.js",
-    "static/js/2.f39f3eec.chunk.js.map": "/portfolio-jyoti/static/js/2.f39f3eec.chunk.js.map",
+    "main.css": "/portfolio-jyoti/static/css/main.dea951cd.chunk.css",
+    "main.js": "/portfolio-jyoti/static/js/main.bb13a8de.chunk.js",
+    "main.js.map": "/portfolio-jyoti/static/js/main.bb13a8de.chunk.js.map",
+    "runtime-main.js": "/portfolio-jyoti/static/js/runtime-main.467bb86c.js",
+    "runtime-main.js.map": "/portfolio-jyoti/static/js/runtime-main.467bb86c.js.map",
+    "static/css/2.cbedb215.chunk.css": "/portfolio-jyoti/static/css/2.cbedb215.chunk.css",
+    "static/js/2.dea059e6.chunk.js": "/portfolio-jyoti/static/js/2.dea059e6.chunk.js",
+    "static/js/2.dea059e6.chunk.js.map": "/portfolio-jyoti/static/js/2.dea059e6.chunk.js.map",
     "index.html": "/portfolio-jyoti/index.html",
-    "static/css/main.313f3f13.chunk.css.map": "/portfolio-jyoti/static/css/main.313f3f13.chunk.css.map",
-    "static/js/2.f39f3eec.chunk.js.LICENSE.txt": "/portfolio-jyoti/static/js/2.f39f3eec.chunk.js.LICENSE.txt",
+    "static/css/2.cbedb215.chunk.css.map": "/portfolio-jyoti/static/css/2.cbedb215.chunk.css.map",
+    "static/css/main.dea951cd.chunk.css.map": "/portfolio-jyoti/static/css/main.dea951cd.chunk.css.map",
+    "static/js/2.dea059e6.chunk.js.LICENSE.txt": "/portfolio-jyoti/static/js/2.dea059e6.chunk.js.LICENSE.txt",
     "static/media/aboutme.0b25cd9c.png": "/portfolio-jyoti/static/media/aboutme.0b25cd9c.png",
     "static/media/skills_vector.1fb5f4a4.png": "/portfolio-jyoti/static/media/skills_vector.1fb5f4a4.png",
     "static/media/typing.26105fde.png": "/portfolio-jyoti/static/media/typing.26105fde.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eecac863.js",
-    "static/js/2.f39f3eec.chunk.js",
-    "static/css/main.313f3f13.chunk.css",
-    "static/js/main.89c39c84.chunk.js"
+    "static/js/runtime-main.467bb86c.js",
+    "static/css/2.cbedb215.chunk.css",
+    "static/js/2.dea059e6.chunk.js",
+    "static/css/main.dea951cd.chunk.css",
+    "static/js/main.bb13a8de.chunk.js"
   ]
 }
