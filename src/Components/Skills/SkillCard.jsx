@@ -5,7 +5,7 @@ const SkillCard = ({ skillName, skillUrl }) => {
     return (
         <div className="skill">
             <img
-                src={skillUrl} alt='' />
+                src={skillUrl} alt='Hey' />
             <p> {skillName} </p>
         </div>
     );
