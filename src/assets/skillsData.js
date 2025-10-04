@@ -1,60 +1,77 @@
 export const skillList = [
     {
-        skillName: 'HTML',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
+        skillName: 'React',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+        category: 'Frontend'
     },
     {
-        skillName: 'CSS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/css.png',
+        skillName: 'TypeScript',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+        category: 'Frontend'
     },
     {
         skillName: 'JavaScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/js.png',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+        category: 'Frontend'
     },
     {
-        skillName: 'React',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
+        skillName: 'Node.js',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+        category: 'Backend'
+    },
+    {
+        skillName: 'Python',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+        category: 'Backend'
+    },
+    {
+        skillName: 'PostgreSQL',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+        category: 'Database'
+    },
+    {
+        skillName: 'MongoDB',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+        category: 'Database'
+    },
+    {
+        skillName: 'Azure',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
+        category: 'Cloud'
+    },
+    {
+        skillName: 'AWS',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
+        category: 'Cloud'
+    },
+    {
+        skillName: 'GraphQL',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg',
+        category: 'API'
+    },
+    {
+        skillName: 'Docker',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+        category: 'DevOps'
+    },
+    {
+        skillName: 'Git',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+        category: 'DevOps'
+    },
+    {
+        skillName: 'Express.js',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+        category: 'Backend'
     },
     {
         skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
+        category: 'Frontend'
     },
     {
-        skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
-    },
-  
-    {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
-    },
-
-    {
-        skillName: 'Arduino',
-        skillUrl: 'https://user-images.githubusercontent.com/63103873/121678477-de83f700-cad4-11eb-834d-3f53d780065e.jpg'
-    },
-    {
-        skillName: 'Bootstrap',
-        skillUrl: 'https://user-images.githubusercontent.com/63103873/121678460-d926ac80-cad4-11eb-962d-c25e726424ab.png'
-    },
-
-    {
-        skillName: 'Matlab',
-        skillUrl: 'https://user-images.githubusercontent.com/63103873/121678311-aaa8d180-cad4-11eb-97da-33735a96f97e.jpg'
-    },
-
-    {
-        skillName: 'C/C++',
-        skillUrl: 'https://user-images.githubusercontent.com/63103873/121678472-db890680-cad4-11eb-8613-136464b44e46.png'
-    },
-
-    {
-        skillName: 'Git',
-        skillUrl: 'https://user-images.githubusercontent.com/63103873/121678453-d5932580-cad4-11eb-9e45-1cb164e6d51b.png'
-    },
-
-    {
-        skillName: 'Python',
-        skillUrl: 'https://user-images.githubusercontent.com/63103873/121678438-d0ce7180-cad4-11eb-9fb5-6c344a497781.png'
+        skillName: 'Figma',
+        skillUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+        category: 'Design'
     }
 ];

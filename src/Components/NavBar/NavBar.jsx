@@ -1,107 +1,48 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import "./NavBar.css";
-//import { slide as Menu } from 'react-burger-menu';
-// import { withRouter } from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
+import "../../styles/common.css";
 
-class NavBar extends React.Component {
-    render() {
-        // const { location } = this.props;
-        // const homeClass = location.pathname === '/' ? 'active-item' : '';
-        // const aboutClass = location.pathname === '/about' ? 'active-item' : '';
-        // const projectsClass = location.pathname === '/projects' ? 'active-item' : '';
-        // const skillsClass = location.pathname === '/skills' ? 'active-item' : '';
-        // const contactClass = location.pathname === '/contact' ? 'active-item' : '';
+const NavBar = () => {
+    const location = useLocation();
+    
+    const isActive = (path) => {
+        return location.pathname === path ? 'active' : '';
+    };
 
-        return (
-            // <Menu>
-            //     {/* We won't use anchor tag becaue it refreshes the web application
-            //      <a id="home" className="menu-item" href="/">Home</a>*/}
-
-            //     <Link to="/" className={`menu-item ${homeClass}`}>
-            //         Home
-            //     </Link>
-            //     <Link to="/about" className={`menu-item ${aboutClass}`}>
-            //         About
-            //     </Link>
-            //     <Link to="/projects" className = {`menu-item ${projectsClass}`}>
-            //          Projects
-            //     </Link>
-            //     <Link to="/skills" className={`menu-item ${skillsClass}`}>
-            //         Skills
-            //     </Link>
-            //     <Link to="/contact" className={`menu-item ${contactClass}`}>
-            //         Contact
-            //     </Link>
-            //     </Menu>
-            <div className="nav-container">
-
-                {/* <Link
-                    activeClass="active"
-                    to="home"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                >       Home
+    return (
+        <div className="nav-container">
+            <Link to="/" className="nav-header text-primary">
+                JYOTI KUMARI
+            </Link>
+            <nav className="nav-links">
+                <Link 
+                    to="/about" 
+                    className={`nav-link ${isActive('/about')}`}
+                >
+                    About Me
                 </Link>
-                <Link
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                >   About
+                <Link 
+                    to="/projects" 
+                    className={`nav-link ${isActive('/projects')}`}
+                >
+                    Projects
                 </Link>
-                <Link
-                    activeClass="active"
-                    to="projects"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                > Projects
+                <Link 
+                    to="/skills" 
+                    className={`nav-link ${isActive('/skills')}`}
+                >
+                    Skills
                 </Link>
-                <Link
-                    activeClass="active"
-                    to="skill"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                > Skills
+                <Link 
+                    to="/contact" 
+                    className={`nav-link ${isActive('/contact')}`}
+                >
+                    Contact
                 </Link>
-                <Link
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                > Contact
-                </Link> */}
-                <h3 className='nav-header'>JYOTI</h3>
-                <Nav className='navlink' activeKey="/">
-            
-                    <Nav.Item>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500}  href="/#/about"><div className="navlink">About Me!</div></Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500}  href="/#/projects"><div className="navlink">Projects</div></Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href="/#/skill"><div className="navlink">Skills</div></Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500}  href="/#/contact"><div className="navlink">Contact</div></Nav.Link>
-                    </Nav.Item>
-                </Nav>
-
-            </div>
-
-        );
-    }
-}
+            </nav>
+        </div>
+    );
+};
 
 export default NavBar;

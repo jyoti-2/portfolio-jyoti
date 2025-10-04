@@ -1,36 +1,40 @@
 import React from 'react';
 import "./Projects.css";
-import FooterLink from '../FooterLink/FooterLink';
 import { projectsData } from './../../assets/projectsData';
 import Header from "../Header/Header";
-import ProjectCard from "./ProjectCard.jsx"
+import ProjectCard from "./ProjectCard.jsx";
+import "../../styles/common.css";
 
 
 const Projects = () => {
     return (
         <div id= "projects" className='section-container'>
             <Header
-                heading='My Projects.'
-                detail='Here are a few cool things I have worked on, do check them out!'
+                heading='Featured Projects'
+                detail="End-to-end solutions I've built and delivered"
             />
 
             <div className="project-cards-container">
-            {projectsData.map(
+                {projectsData.map(
                     ({
                         projectName,
                         projectDescription,
                         imageUrl,
                         projectUrl,
-                        videoUrl
-                    }) => {
+                        videoUrl,
+                        technologies
+                    }, index) => {
                         return (
-                            <ProjectCard
-                                projectName={projectName}
-                                projectDescription={projectDescription}
-                                projectUrl={projectUrl}
-                                imageUrl={imageUrl}
-                                videoUrl={videoUrl}
-                            />
+                            <div key={index} className="fade-in" style={{animationDelay: `${index * 0.1}s`}}>
+                                <ProjectCard
+                                    projectName={projectName}
+                                    projectDescription={projectDescription}
+                                    projectUrl={projectUrl}
+                                    imageUrl={imageUrl}
+                                    videoUrl={videoUrl}
+                                    technologies={technologies}
+                                />
+                            </div>
                         );
                     }
                 )}

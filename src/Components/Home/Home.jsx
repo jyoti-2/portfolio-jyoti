@@ -1,38 +1,55 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
-import HomeImage from './../../assets/typing.png';
-import About from "./../About/About";
-import Projects from "./../Projects/Projects";
-import Skills from "./../Skills/Skills";
-import Contact from "./../Contact/Contact";
+import "../../styles/common.css";
 
-class Home extends Component{
-    render() {
-        return (
-            <div id = "home" className="home-container">
-                <div className="header-text">
-                    <h1> Hello I'm Jyoti Kumari</h1>
-                    <p>Web Developer | Junior Digital Analyst @ McKinsey & Company</p>
+const Home = () => {
+    return (
+        <div id="home" className="home-container">
+            <div className="hero-content">
+                <div className="hero-text">
+                    <h1 className="hero-title">
+                        Hello, I'm <span className="highlight">Jyoti Kumari</span>
+                    </h1>
+                    <p className="hero-subtitle">
+                        Software Engineer | Technical Leader | McKinsey
+                    </p>
+                    <p className="hero-description">
+                        I build scalable systems and deliver end-to-end features across frontend, backend, 
+                        and core business logic layers. Currently developing client-facing platforms at McKinsey.
+                    </p>
+                    <div className="hero-buttons">
+                        <Link to="/about" className="btn btn-primary">
+                            Learn More About Me
+                        </Link>
+                        <Link to="/projects" className="btn btn-secondary">
+                            View My Work
+                        </Link>
+                    </div>
                 </div>
-                {/* <div className="head-btn">
-                    <Link to="/about" className= "btn btn-white">
-                        <p className="btn-text"> Know more about me</p>
-                    </Link>
-                    <Link to="/contact" className="btn btn-transparent">
-                        <p className="btn-txt">Connect with me</p>
-                    </Link>
-                </div> */}
-                {/* <div className="home-image">
-                    <img src={HomeImage} alt='' className='splash-image'/>
-                </div> */}
-                <About />
-                <Projects />
-                <Skills />
-                <Contact/>
+                <div className="hero-image">
+                    <div className="image-container">
+                        <div className="floating-card card">
+                            <div className="card-content">
+                                <h3 className="text-primary">Core Technologies</h3>
+                                <div className="tech-items grid-2">
+                                    <span className="text-accent">React</span>
+                                    <span className="text-accent">TypeScript</span>
+                                    <span className="text-accent">Node.js</span>
+                                    <span className="text-accent">PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        )
-    }
-}
+            
+            <div className="scroll-indicator">
+                <div className="scroll-arrow"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+    );
+};
 
 export default Home;

@@ -1,121 +1,67 @@
-# Portfolio Website using React.js
+# Jyoti Kumari - Portfolio Website
 
-### Table of Contents
+A modern, responsive portfolio website showcasing my work as a Full-Stack Developer and Digital Analyst.
 
-- [Tech Stack](#tech-stack)
-- [Libraries used](#libraries-used)
-- [Screenshot](#screenshot)
-- [Installation and Setup Instructions](#installation-and-setup-instructions)
-- [Source Structure](#source-structure)
-- [Steps to create a React Project](#steps-to-create-a-react-project)
-- [Steps to perform before writing the code](#steps-to-perform-before-writing-the-code)
-- [Deployment of Website](#deployment-of-website-using-github-pages)
+## 🚀 Features
 
-## ⚙️ Tech Stack
+- **Modern UI/UX**: Sleek, glassmorphism design with smooth animations
+- **Responsive Design**: Optimized for all device sizes
+- **React Router**: Proper navigation between sections
+- **Interactive Components**: Hover effects, animations, and transitions
+- **Contact Form**: Functional contact form with validation
+- **Project Showcase**: Detailed project cards with technology tags
+- **Skills Display**: Categorized skills with modern icons
+- **Social Links**: Easy access to professional profiles
 
-- [Javascript](https://www.javascript.com/)
-- [Reactjs](https://reactjs.org/)
-- [React Router](https://reactrouter.com/)
+## 🛠️ Technologies Used
 
-## Libraries used
+- **Frontend**: React.js, HTML5, CSS3, JavaScript
+- **Styling**: Custom CSS with modern design patterns
+- **Routing**: React Router DOM
+- **Icons**: DevIcons for technology logos
+- **Deployment**: GitHub Pages
 
-- react-burger-menu `npm i react-burger-menu`
-- React Router Dom `npm install react router dom`
-- Formspree for getting the email from the contact pages.
+## 📱 Sections
 
-## :camera: Screenshot
+1. **Home**: Hero section with introduction and call-to-action
+2. **About**: Professional background, education, and experience
+3. **Projects**: Showcase of key projects with live demos and code
+4. **Skills**: Technical skills organized by category
+5. **Contact**: Contact form and social media links
 
-![alt text](https://user-images.githubusercontent.com/63103873/121711695-83fc9200-caf8-11eb-81a3-11e25075c141.png)
+## 🎨 Design Features
 
-![alt text](https://user-images.githubusercontent.com/63103873/121773074-22d7cb80-cb97-11eb-9157-528e786c231f.png)
+- Gradient backgrounds with subtle patterns
+- Glassmorphism effects with backdrop blur
+- Smooth hover animations and transitions
+- Mobile-first responsive design
+- Modern typography with Poppins font
+- Consistent color scheme with purple/blue gradients
 
-![alt text](https://user-images.githubusercontent.com/63103873/121773077-279c7f80-cb97-11eb-9f25-bb3e0b0f27ad.png)
+## 🚀 Getting Started
 
-![alt text](https://user-images.githubusercontent.com/63103873/121773134-7ba76400-cb97-11eb-891f-729de009725c.png)
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-![alt text](https://user-images.githubusercontent.com/63103873/121773076-253a2580-cb97-11eb-8595-8f097e2dea31.png)
+## 📦 Build for Production
 
-## 🔨 Installation and Setup Instructions
+```bash
+npm run build
+```
 
-1. Clone the repository to your local machine
-   ```console
-   $ git clone https://github.com<YOUR-GITHUB-USERNAME>/jyoti-portfolio.git
-   ```
-2. Change the working directory
-   ```bash
-   cd portfolio-jyoti
-   ```
-3. Install dependencies
-   ```bash
-   npm install
-   ```
-4. Run the app
-   ```bash
-   npm start
-   ```
+## 🌐 Deployment
 
-You are all set ✅!
+The site is deployed on GitHub Pages and can be accessed at:
+[https://jyoti-2.github.io/portfolio-jyoti/](https://jyoti-2.github.io/portfolio-jyoti/)
 
-## Source Structure
+## 📧 Contact
 
-      .
-    ├── ...
-    ├── src
-    │   ├── ....
-    |   |── Components          # Create a different folder for each component
-    │   ├── assets              # assets for the website
-    |   ├── index.js            # starting point
-    │   └── ...
-    └── ...
+- **Email**: jyotikumari7958@gmail.com
+- **LinkedIn**: [jyoti-kumari2](https://www.linkedin.com/in/jyoti-kumari2/)
+- **GitHub**: [jyoti-2](https://github.com/jyoti-2)
 
-## Steps to create a React Project
+---
 
-1. Go to the project root directory and open terminal/cmd.
-2. Run `npx create-react-app myportfolio`
-3. Install the project dependencies: `npm install`
-4. `npm start`
-5. Visit App `localhost:3000`
-
-## Steps to perform before writing the code
-
-1. Draw a rough sketch of the website.
-2. Design the wireframes and architecture of the website.
-3. Finalize the React Components for each Web page.
-
-## :computer: Deployment of Website using Github pages
-
-1. `npm install gh-pages --save-dev`
-2. Pushed the code to Github.
-3. Add the following in your package.json
-
-   ```json
-     "homepage" : "http://jyoti-2.github.io/portfolio-jyoti"
-   ```
-
-   ```json
-   // Add in the script 
-   "predeploy" : "npm run build"
-   ```
-
-   ```json
-    // Add in the script 
-     "deploy" : "gh-pages -d build"
-   ```
-
-4. `npm run build`
-
-> :sound: Perform the deployment stage every time if you are making changes in the codebase.
-
-5. `npm run deploy`
-
-## Credits
-
-I have followed this :link: [Tutorial](https://www.youtube.com/watch?v=bA4pO1Y4ujA&list=PLGyA74h_S9Nq-rRLG5pqEiaJ87H22S3BW) to build the project.
-
-## License
-
-:link: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-### Check it Live here :link: [link](http://jyoti-2.github.io/portfolio-jyoti)
-
-**[⬆ back to top](#table-of-contents)**
+*Last updated: December 2024*

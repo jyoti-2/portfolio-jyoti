@@ -1,40 +1,44 @@
 export const projectsData = [
     {
-        projectName: 'Name It!',
+        projectName: 'Promotion Advisor Tool',
         projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
+            'Client-facing platform at McKinsey supporting promotion decisions at scale. Built with React, Node.js, and PostgreSQL, featuring performance optimization and stakeholder engagement.',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj1.PNG',
-        projectUrl: 'https://jyoti-2.github.io/Name-Generator/',
-        videoUrl: 'https://github.com/jyoti-2/Name-Generator'
+        projectUrl: '#',
+        videoUrl: '#',
+        technologies: ['React', 'Node.js', 'PostgreSQL', 'Azure', 'GraphQL']
     },
     {
-        projectName: 'Typing Testnow',
+        projectName: 'Name Generator API',
         projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
+            'Full-stack application for generating creative project names with user authentication and data persistence. Features real-time suggestions and collaborative naming.',
+        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
+        projectUrl: 'https://jyoti-2.github.io/Name-Generator/',
+        videoUrl: 'https://github.com/jyoti-2/Name-Generator',
+        technologies: ['React', 'Node.js', 'MongoDB', 'JWT', 'Express']
+    },
+    {
+        projectName: 'Typing Speed Analyzer',
+        projectDescription: 'Performance-focused typing speed test with analytics dashboard. Built with real-time data processing and user progress tracking.',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
         projectUrl: 'https://github.com/jyoti-2/Typing-Testnow',
-        videoUrl: 'https://github.com/jyoti-2/Typing-Testnow'
+        videoUrl: 'https://github.com/jyoti-2/Typing-Testnow',
+        technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB']
     },
     {
-        projectName: 'To-Do-List',
-        projectDescription: 'A simple to-do list webapp built-in HTML,CSS and JavaScript.',
+        projectName: 'Task Management System',
+        projectDescription: 'Scalable task management solution with team collaboration features, real-time updates, and advanced filtering capabilities.',
         imageUrl: 'https://user-images.githubusercontent.com/63103873/121709275-03d52d00-caf6-11eb-85c8-ff8eb6da0215.png',
         projectUrl: 'https://jyoti-2.github.io/To-Do-List-Web-App/',
-        videoUrl: 'https://github.com/jyoti-2/To-Do-List-Web-App'
+        videoUrl: 'https://github.com/jyoti-2/To-Do-List-Web-App',
+        technologies: ['React', 'Node.js', 'PostgreSQL', 'WebSocket']
     },
     {
-        projectName: 'Color Picker',
-        projectDescription: 'This web app helps the developer in selecting the theme color of the web app.',
+        projectName: 'Design System Tools',
+        projectDescription: 'Developer-focused color palette generator with accessibility compliance checking and theme export capabilities for design systems.',
         imageUrl: 'https://user-images.githubusercontent.com/63103873/121709264-00da3c80-caf6-11eb-971a-a45828b79737.png',
         projectUrl: 'https://jyoti-2.github.io/Color-Picker/hex.html',
-        videoUrl:'https://github.com/jyoti-2/Color-Picker'
-    },
-    {
-        projectName: 'Portfolio Website',
-        projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-        imageUrl: 'https://user-images.githubusercontent.com/63103873/121711695-83fc9200-caf8-11eb-81a3-11e25075c141.png',
-        projectUrl: 'https://jyoti-2.github.io/portfolio-jyoti/',
-        videoUrl: 'https://github.com/jyoti-2/portfolio-jyoti'
-    },
+        videoUrl:'https://github.com/jyoti-2/Color-Picker',
+        technologies: ['React', 'TypeScript', 'CSS-in-JS', 'Figma API']
+    }
 ];
